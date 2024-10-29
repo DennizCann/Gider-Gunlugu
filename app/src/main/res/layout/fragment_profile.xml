@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/userNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Adı"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/jobInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Meslek"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/dobInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doğum Tarihi (YYYY-MM-DD)"
+        android:layout_marginBottom="16dp"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/saveProfileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaydet" />
+
+</LinearLayout>

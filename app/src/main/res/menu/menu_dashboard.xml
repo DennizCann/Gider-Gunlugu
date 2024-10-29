@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add_income"
+        android:title="Gelir Ekle"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_add_expense"
+        android:title="Gider Ekle"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_daily_expense"
+        android:title="Günlük Gider Ekle"
+        app:showAsAction="never" /> <!-- Günlük Gider Ekle menüye eklendi -->
+
+    <item
+        android:id="@+id/action_edit_profile"
+        android:title="Profili Düzenle"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="Çıkış Yap"
+        app:showAsAction="never" />
+</menu>

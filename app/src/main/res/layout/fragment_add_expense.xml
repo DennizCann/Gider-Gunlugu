@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/addExpenseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ekle"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/removeExpenseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Çıkart"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/noExpensesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Henüz gider eklenmedi."
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/expenseListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

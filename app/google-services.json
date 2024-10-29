@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "124265586015",
+    "project_id": "gidergunlugu-cecc1",
+    "storage_bucket": "gidergunlugu-cecc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124265586015:android:4fce15f9fba942b5f42aea",
+        "android_client_info": {
+          "package_name": "com.denizcan.gidergunlugu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLPzSvpAh0JfRRl4d85G8Lo97CAZBFk1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
