@@ -1,5 +1,6 @@
 package com.denizcan.gidergunlugu
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.*
@@ -217,8 +218,17 @@ class DashBoardFragment : Fragment() {
             R.id.action_logout -> {
                 auth.signOut()
                 Toast.makeText(requireContext(), "Çıkış Yapıldı", Toast.LENGTH_SHORT).show()
+
+                // LoginFragment'e geçiş yap
+                parentFragmentManager.beginTransaction()
+                    .replace(R.id.fragmentContainer, LoginFragment())
+                    .addToBackStack(null)
+                    .commit()
+
                 true
             }
+
+
             else -> super.onOptionsItemSelected(item)
         }
     }
